@@ -2,6 +2,7 @@ import classes from './MainHeader.module.css'
 import { Fragment } from 'react';
 import mealsImage from  '../../../assets/meals.jpg';
 
+
 const MainHeader = (props) =>{
     return (
         <Fragment>
@@ -16,6 +17,7 @@ const MainHeader = (props) =>{
             <div className={classes['main-image']}>
                 <img src={mealsImage} alt='A table full of delicious Food!'/>
             </div>
+            
 
         </Fragment>
     
