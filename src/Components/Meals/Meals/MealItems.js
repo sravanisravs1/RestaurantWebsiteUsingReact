@@ -33,7 +33,7 @@ const MealItems = () => {
     return (
     <Card>
         <section className={classes.meals}>
-        <ul className={classes.mealsul}>
+        <ul >
             {DUMMY_MEALS.map(meals => <div>
                 <h2>{meals.name} </h2>
                 <p>{meals.description}</p>
