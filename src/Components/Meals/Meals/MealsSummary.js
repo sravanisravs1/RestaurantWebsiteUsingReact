@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "../../UI/Card/Card/Card";
+//import Card from "../../UI/Card/Card/Card";
 import classes from './MealsSummary.module.css'
 
 
 const MealSummary = () =>{
     return (
-        <Card>
-            <section className={classes.summary}>
+        
+        <section className={classes.summary}>
             <h2>
                 Delicious Food,Delivered To You
             </h2>
@@ -22,7 +22,7 @@ const MealSummary = () =>{
             
         </section>
 
-        </Card>
+        
         
     )
 };
