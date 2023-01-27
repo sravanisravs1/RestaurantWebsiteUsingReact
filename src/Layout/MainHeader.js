@@ -11,7 +11,7 @@ const MainHeader = (props) =>{
                 <h1 >
                     SouthIndian Special Meals
                 </h1>
-                <HeaderCartButton/>
+                <HeaderCartButton onClick={props.onCartClick}/>
             </header>
             <div className={classes['main-image']}>
                 <img src={mealsImage} alt='A table full of delicious Food!'/>
